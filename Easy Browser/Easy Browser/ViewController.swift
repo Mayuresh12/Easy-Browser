@@ -14,7 +14,7 @@ import WebKit
 class ViewController: UIViewController, WKNavigationDelegate {
     var webView: WKWebView!
     var progressView: UIProgressView!
-    //
+    ///
     // loadView gets called before the viewDidLoad
     override func loadView() {
         webView = WKWebView()
